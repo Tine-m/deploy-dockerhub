@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
         @GetMapping("/hello")
         public String greeting(){
-            return "Hello from Spring Boot Application";
+            return "Hello from Spring Boot!";
         }
     }
